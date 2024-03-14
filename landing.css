@@ -1,0 +1,239 @@
+body {
+    margin: 0px;
+
+}
+
+/* CSS code for styling the button */
+.centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+/* CSS code for styling the button */
+.centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* CSS code for changing the button color on hover */
+.centered-button:hover {
+    background-color: red;
+}
+
+
+header {
+    background-color: rgb(177, 7, 7);
+    height: 70px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+    display:grid;
+    grid-template-columns:50% 50%;
+    margin-right: 0px;
+    
+}
+.logo{
+    width:50%;
+    height:43px;
+}
+
+.nav-bar{
+   position:absolute;
+   right:20px;
+    
+   
+}
+ul{
+  
+    display:flex;
+    justify-content:center;
+    
+    
+}
+li{
+    list-style: none;
+    padding: 12px;
+    font-size: 20px;
+ }
+
+a{
+    color:white;
+    text-decoration: none;
+ 
+}
+
+.section-1 {
+    background-color: rgb(177, 7, 7);
+    height: 600px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+
+
+}
+
+.p1 {
+    color: rgb(231, 231, 231);
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    margin-top: 0px;
+    font-size: 73px;
+    margin-bottom: none;
+    position: absolute;
+    left: 170px;
+    top: 180px;
+    z-index: 1;
+    text-shadow: 5px 2px black;
+}
+
+.p2 {
+    color: rgb(231, 231, 231);
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    margin-top: 0px;
+    font-size: 73px;
+    margin-bottom: none;
+    position: absolute;
+    top: 400px;
+    right:65px;
+    text-shadow: 5px 2px black;
+    z-index: 1;
+}
+
+.img-1 {
+    height: 365px;
+    width: 735px;
+    position: absolute;
+    top: 95px;
+    left:270px;
+    filter: drop-shadow(10px 10px 4px rgb(53, 4, 4));
+    transform: rotate(35deg);
+    margin-bottom: 0px;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.img-1:hover {
+    transform: rotate(45deg);
+}
+
+.section_2 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(235, 228, 228);
+
+    margin: 0px;
+}
+
+.content {
+    height: 400px;
+    width: 90%;
+    background-color: rgb(235, 228, 228);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 20;
+
+}
+
+.image {
+    height: 400px;
+    width: 90%;
+    background-color: rgb(235, 228, 228);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 20;
+
+}
+
+h1 {
+    font-size: 45px;
+    font: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 60px;
+
+
+}
+
+.text {
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: left;
+    margin: 30px;
+
+
+}
+
+.image {
+    background-size: cover;
+}
+
+.section-3 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(235, 228, 228);
+
+    margin: 0px;
+}
+
+.section_4 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(235, 228, 228);
+    
+    margin: 0px;
+
+}
+
+.section-5 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(235, 228, 228);
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 140px;
+    background-color: rgb(177, 7, 7);
+    box-shadow: 0 0 10px 0 rgba(7, 4, 4, 0.45) inset;
+    color:rgb(236, 228, 228);
+    font-size:25;
+    font-family: 'PT Serif', serif;
+     padding: 40px;
+
+}
